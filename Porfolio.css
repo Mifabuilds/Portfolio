@@ -301,7 +301,7 @@ nav .fas{ display: none; }
 }
 
 /* -----------------------
-   Services ("What I Build")
+   Services
 ------------------------ */
 #services{ padding: 60px 0 30px; }
 
@@ -495,9 +495,9 @@ nav .fas{ display: none; }
 }
 
 .btn:hover{
-  background: rgba(255,255,255,0.12);
+  /* background: rgba(255,255,255,0.12); */
   transform: translateY(-2px);
-  border: 1px solid rgba(255,255,255,0.28);
+  /* border: 1px solid rgba(255,255,255,0.28); */
 }
 
 .btn.btn2{
@@ -507,7 +507,7 @@ nav .fas{ display: none; }
 }
 
 /* -----------------------
-   Contact (Form Only)
+   Contact
 ------------------------ */
 #contact{ padding: 80px 0 50px; }
 
@@ -584,7 +584,7 @@ form select option{
 }
 
 /* Budget select arrow (only for budget wrapper) */
-.budget-select{ position: relative; }
+/* .budget-select{ position: relative; }
 .budget-select select{ padding-right: 48px; }
 
 .budget-select::before{
@@ -612,7 +612,7 @@ form select option{
   z-index: 2;
 }
 
-.budget-select:hover::after{ color: rgba(255,255,255,0.95); }
+.budget-select:hover::after{ color: rgba(255,255,255,0.95); } */
 
 .contact-submit{
   width: 100%;
@@ -700,7 +700,7 @@ form select option{
   nav ul{
     position: fixed;
     top: 0;
-    right: calc(-1 * var(--menu-width)); /* CLOSED (matches JS when you set it) */
+    right: calc(-1 * var(--menu-width)); 
     width: var(--menu-width);
     height: 100vh;
 
